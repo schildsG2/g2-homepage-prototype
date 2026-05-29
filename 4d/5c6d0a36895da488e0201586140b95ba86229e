@@ -1,0 +1,28 @@
+src/components/G2Topbar.jsx
+  s_0b51783460d3ef::t_2db93ee6bd1bf8 31
+index.html
+  s_0b51783460d3ef::t_ed3cc41d7f5d08 8-9
+src/components/VendorCallout.jsx
+  s_0b51783460d3ef::t_7e9713f9e4c3f1 8
+src/components/ReviewCallout.jsx
+  s_0b51783460d3ef::t_c170036ef75ed4 8
+src/components/TestimonialSection.jsx
+  s_0b51783460d3ef::t_5a46d7d745b0a1 16
+  s_0b51783460d3ef::t_b0b1df8832f24c 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4d5c6d0a36895da488e0201586140b95ba86229e",
+  "prompts": {},
+  "sessions": {
+    "s_0b51783460d3ef": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ses_18bd4052bffeVHlGl2coHemekC",
+        "model": "unknown"
+      },
+      "human_author": "Sam Childs <schilds@g2.com>"
+    }
+  }
+}

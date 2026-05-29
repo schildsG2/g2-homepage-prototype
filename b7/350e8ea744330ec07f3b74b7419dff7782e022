@@ -1,0 +1,25 @@
+src/styles/global.css
+  s_0b51783460d3ef::t_0862212c8360d9 1-27
+src/main.jsx
+  s_0b51783460d3ef::t_ff7ae30d3974fe 3
+src/data/products.js
+  s_0b51783460d3ef::t_c269e2380ee6cf 1-3,6-14
+src/styles/footer.css
+  s_0b51783460d3ef::t_ec386b1c55d2c6 58-62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b7350e8ea744330ec07f3b74b7419dff7782e022",
+  "prompts": {},
+  "sessions": {
+    "s_0b51783460d3ef": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ses_18bd4052bffeVHlGl2coHemekC",
+        "model": "unknown"
+      },
+      "human_author": "Sam Childs <schilds@g2.com>"
+    }
+  }
+}

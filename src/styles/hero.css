@@ -1,0 +1,137 @@
+.hero-section {
+  width: 100%;
+  background-color: var(--palette-rorange-20);
+  position: relative;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/images/dashboard-shapes-narrow-600.png');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  z-index: 1;
+}
+
+@media (min-width: 46.875em) {
+  .hero-bg {
+    background-image: url('/images/dashboard-shapes-600.png');
+  }
+}
+
+@media (min-width: 62.5em) {
+  .hero-bg {
+    background-image: url('/images/dashboard-shapes-620.png');
+    height: 620px;
+  }
+  .hero-section {
+    height: 620px;
+  }
+}
+
+@media (min-width: 79.375em) {
+  .hero-bg {
+    background-image: url('/images/dashboard-shapes-778.png');
+    height: 778px;
+  }
+  .hero-section {
+    height: 778px;
+  }
+}
+
+.hero-section {
+  height: 600px;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.hero-title {
+  font-size: 32px;
+  font-weight: var(--font-extrabold);
+  color: var(--text-default);
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+@media (min-width: 46.875em) {
+  .hero-title {
+    font-size: var(--text-3xl);
+  }
+}
+
+.hero-subtitle {
+  font-size: var(--text-lg);
+  color: var(--text-default);
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+.hero-subtitle-link {
+  color: var(--palette-rorange-100);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero-search-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 24px;
+}
+
+.hero-search-wrapper .elv-rounded-search {
+  height: 56px;
+  border-radius: 28px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.hero-search-wrapper .elv-rounded-search__input {
+  font-size: 16px;
+}
+
+.hero-search-wrapper .elv-rounded-search__icon {
+  left: 20px;
+}
+
+.hero-quick-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-quick-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--bg-neutral-0);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-default);
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--border-light);
+  transition: all 150ms;
+}
+
+.hero-quick-link:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}

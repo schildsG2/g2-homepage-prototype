@@ -1,0 +1,65 @@
+export const importantCategories = [
+  {
+    parent: 'Natural Language Processing (NLP) Soft…',
+    parentFull: 'Natural Language Processing (NLP) Software',
+    children: [
+      'Large Language Models (LLMs) Software',
+      'AI Image Generators Software',
+      'Text to Speech Software',
+      'Vector Database Software',
+    ],
+  },
+  {
+    parent: 'Collaboration & Productivity Software',
+    children: [
+      'VoIP Providers',
+      'Board Management Software',
+      'Digital Adoption Platforms',
+      'Survey Software',
+      'Video Conferencing Software',
+    ],
+  },
+  {
+    parent: 'Customer Service Automation Software',
+    children: [
+      'Customer Self-Service Software',
+      'Governance, Risk & Compliance Software',
+      'Enterprise Risk Management (ERM) Soft…',
+      'Security Compliance Software',
+      'Third Party & Supplier Risk Management',
+      'Audit Management Software',
+      'Anti-Money Laundering Software',
+      'Business Continuity Management Softwa…',
+      'Operational Risk Management Software',
+    ],
+  },
+  {
+    parent: 'Marketing Software',
+    children: [
+      'Marketing Automation Software',
+      'Customer Data Platforms (CDP)',
+      'Email Marketing Software',
+      'Mobile Marketing Software',
+      'Online Reputation Management Software',
+      'SEO Tools',
+      'SMO Marketing Software',
+      'Marketing Analytics Software',
+      'Inbound Call Tracking Software',
+      'Online Community Management Software',
+      'Digital Signage Software',
+      'User Research Tools',
+      'Webinar Platforms',
+      'Affiliate Marketing Software',
+    ],
+  },
+  {
+    parent: 'Sales Intelligence Software',
+    children: [
+      'Contract Management Software',
+      'Sales Compensation Software',
+      'Contract Lifecycle Management (CLM) S…',
+      'Auto Dialer Software',
+      'AI Sales Assistant Software',
+    ],
+  },
+];

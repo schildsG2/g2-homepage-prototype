@@ -426,3 +426,16 @@
   white-space: nowrap;
   border: 0;
 }
+
+.elv-g2-topnav--homepage {
+  background: transparent;
+  border-bottom: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.elv-g2-topnav__spacer {
+  flex: 1;
+}

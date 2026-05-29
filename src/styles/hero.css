@@ -53,7 +53,7 @@
   z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 80px 24px;
+  padding: 100px 24px 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,23 +94,60 @@
   margin-bottom: 24px;
 }
 
-.hero-search-wrapper .elv-rounded-search {
-  height: 56px;
+.hero-search {
+  display: flex;
+  align-items: center;
+  background: var(--bg-neutral-0);
+  border: 1px solid var(--palette-neutral-30);
   border-radius: 28px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  height: 56px;
+  padding: 0 6px 0 24px;
+  transition: border-color 150ms, box-shadow 150ms;
 }
 
-.hero-search-wrapper .elv-rounded-search__input {
+.hero-search:focus-within {
+  border-color: var(--border-primary);
+  box-shadow: 0 0 0 3px var(--border-focus);
+}
+
+.hero-search__input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
   font-size: 16px;
+  font-family: inherit;
+  color: var(--text-default);
+  height: 100%;
 }
 
-.hero-search-wrapper .elv-rounded-search__icon {
-  left: 20px;
+.hero-search__input::placeholder {
+  color: var(--palette-neutral-50);
+}
+
+.hero-search__btn {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--palette-neutral-30);
+  background: var(--bg-neutral-0);
+  color: var(--text-default);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 150ms;
+}
+
+.hero-search__btn:hover {
+  background: var(--bg-neutral-5);
+  border-color: var(--palette-neutral-40);
 }
 
 .hero-quick-links {
   display: flex;
-  gap: 16px;
+  gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -118,20 +155,19 @@
 .hero-quick-link {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  background-color: var(--bg-neutral-0);
-  padding: 8px 16px;
-  border-radius: 20px;
+  gap: 6px;
+  background: none;
+  padding: 0;
+  border-radius: 0;
   font-weight: 600;
   font-size: 14px;
   color: var(--text-default);
   text-decoration: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  border: 1px solid var(--border-light);
-  transition: all 150ms;
+  border: none;
+  box-shadow: none;
+  transition: color 150ms;
 }
 
 .hero-quick-link:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transform: translateY(-1px);
+  color: var(--palette-purple-100);
 }

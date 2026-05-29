@@ -1,0 +1,32 @@
+src/styles/testimonial.css
+  s_0b51783460d3ef::t_81a82c0329cc98 13-14,22,29-31,37
+src/components/HeroSection.jsx
+  s_0b51783460d3ef::t_1bdef375cc7fe8 17-22,27,29
+src/styles/g2-topbar.css
+  s_0b51783460d3ef::t_1bbbd56e171ddc 429-441
+src/styles/hero.css
+  s_0b51783460d3ef::t_93d5fbded01ffd 56
+  s_0b51783460d3ef::t_f46a6facd1ba48 97-101,103-105,108-117,119-125,128-145,150,158-161,166-168,172
+src/components/G2Topbar.jsx
+  s_0b51783460d3ef::t_c06583266cd2bd 26,34
+src/styles/category-selector.css
+  s_0b51783460d3ef::t_31b27cea80d862 45,59-62
+src/styles/callout.css
+  s_0b51783460d3ef::t_b466376727a417 10,13,20,22,34,37-49,53-54,59-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d8a2d99353c118cc811a51e5180f916fc6efc6ae",
+  "prompts": {},
+  "sessions": {
+    "s_0b51783460d3ef": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ses_18bd4052bffeVHlGl2coHemekC",
+        "model": "unknown"
+      },
+      "human_author": "Sam Childs <schilds@g2.com>"
+    }
+  }
+}

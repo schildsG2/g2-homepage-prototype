@@ -55,6 +55,11 @@
   transition: color 150ms;
 }
 
+.footer-link::after {
+  content: ' \203A';
+  opacity: 0.6;
+}
+
 .footer-link:hover {
   color: var(--bg-neutral-0);
   text-decoration: underline;

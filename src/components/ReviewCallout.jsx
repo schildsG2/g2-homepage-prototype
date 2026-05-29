@@ -5,7 +5,7 @@ export default function ReviewCallout() {
     <section className="callout-section">
       <div className="callout-container">
         <div className="callout-image-col">
-          <img src="/images/homepage_reviews_screenshot.png" alt="Leave a review screenshot" />
+          <img src={`${import.meta.env.BASE_URL}images/homepage_reviews_screenshot.png`} alt="Leave a review screenshot" />
         </div>
         <div className="callout-content-col">
           <h2 className="callout-title">Using software?</h2>

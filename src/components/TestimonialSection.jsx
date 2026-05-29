@@ -13,7 +13,7 @@ export default function TestimonialSection() {
             {' software\u2026it\u2019s actually been fun to see my reviews go up, get marked helpful\u2026\u201D'}
           </div>
           <div className="testimonial-mobile-portrait">
-            <img src="/images/reviewer_image1.png" alt="Matthew Gardner" />
+            <img src={`${import.meta.env.BASE_URL}images/reviewer_image1.png`} alt="Matthew Gardner" />
           </div>
           <div className="testimonial-author">
             <span className="testimonial-author-name">Matthew Gardner</span>
@@ -22,7 +22,7 @@ export default function TestimonialSection() {
           </div>
         </div>
         <div className="testimonial-image-wrapper">
-          <img src="/images/reviewer_image1.png" alt="Matthew Gardner" className="testimonial-image" />
+          <img src={`${import.meta.env.BASE_URL}images/reviewer_image1.png`} alt="Matthew Gardner" className="testimonial-image" />
         </div>
       </div>
     </section>

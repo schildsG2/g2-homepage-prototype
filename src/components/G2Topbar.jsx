@@ -28,7 +28,7 @@ export default function G2Topbar() {
         <div className="elv-g2-topnav__inner">
           <div className="elv-g2-topnav__item elv-g2-topnav__item--logo">
             <a href="#" className="elv-g2-topnav__logo" aria-label="G2 - Business Software Reviews">
-              <img src="/images/g2-logo-rorange.svg" alt="" />
+              <img src={`${import.meta.env.BASE_URL}images/g2-logo-rorange.svg`} alt="" />
             </a>
           </div>
 

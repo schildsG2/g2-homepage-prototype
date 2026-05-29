@@ -5,7 +5,7 @@ export default function VendorCallout() {
     <section className="callout-section">
       <div className="callout-container is-reversed">
         <div className="callout-image-col">
-          <img src="/images/profile_screenshots.png" alt="G2 product profile" />
+          <img src={`${import.meta.env.BASE_URL}images/profile_screenshots.png`} alt="G2 product profile" />
         </div>
         <div className="callout-content-col">
           <h2 className="callout-title">Selling software?</h2>
